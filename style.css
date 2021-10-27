@@ -1,0 +1,91 @@
+selector {
+property: value;
+
+}
+
+h1{ 
+	font-size: 30px;
+	line-height: 2;
+	letter-spacing: 3px;
+	color: #C89595;
+ }
+h2 { 
+	font-size: 30px;
+	line-height: 2;
+	letter-spacing: 3px;
+	color: #DDBEBE;
+ }
+body{
+	color: black;
+	background-color: #EDEDED;
+	font-family: PatrickHand-regular;
+	line-height: 2;
+	font-size: 17px;
+}
+a{
+	text-decoration: none;
+	color: #6C4A4A;
+	font-weight: 600;
+	font-size: 16px;
+
+}
+a:hover {
+	color: #CEE5D0;
+}
+img{
+	border-radius: 50%;
+}
+
+ .container{
+ 	width: 700px;
+ 	margin: 40px auto;
+ }
+ .card-white{
+ 	background-color: white;
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0,1);
+ 	border-radius: 4px;
+ 	margin: 20px 0px;
+ 	text-align: center;
+ }
+.card-droit{
+	text-align: left;
+}
+.btn-purple{
+	background-color: #C89595;
+	color: CEE5D0;
+	padding: 15px 20px;
+}
+
+.btn-purple:hover{
+	background-color: #CEE5D0;
+	color: #C89595;
+}
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+.list-horizontal i{
+	font-size: 50px;
+}
+.list-horizontal i:hover{
+	color: #CEE5D0
+}
+.introduction  {
+	margin-bottom: 40px;
+}
+   
+@media (max-width:  500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+
+
+
+
